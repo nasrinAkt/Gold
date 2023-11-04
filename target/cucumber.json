@@ -1,0 +1,106 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify user can add item in cart page",
+        "description": "",
+        "id": "this-is-a-feature-for-searching-item;verify-user-can-add-item-in-cart-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1644959200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open \u003c\"URL\"\u003e go",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 7
+                }
+              ],
+              "location": "Gold_Search.open_go(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 284546500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "type laptop in search field",
+            "match": {
+              "location": "Gold_Search.type_laptop_in_search_field()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2097846400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click search button",
+            "match": {
+              "location": "Gold_Search.click_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15087037300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on item",
+            "match": {
+              "location": "Gold_Search.click_on_item()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 944732400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click add to cart",
+            "match": {
+              "location": "Gold_Search.click_add_to_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6390605700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify user can add item in cart page",
+            "match": {
+              "location": "Gold_Search.verify_user_can_add_item_in_cart_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "This is a feature for searching item",
+    "description": "",
+    "id": "this-is-a-feature-for-searching-item",
+    "keyword": "Feature",
+    "uri": "Gold_Search.feature"
+  }
+]
